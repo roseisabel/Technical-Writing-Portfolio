@@ -11,7 +11,7 @@ function openPreview(title, filePath) {
   const downloadLink = document.getElementById("downloadLink");
 
   previewTitle.textContent = title;
-  previewFrame.data = filePath;
+  previewFrame.data = filePath + "#toolbar=1&navpanes=0&scrollbar=1";
   downloadLink.href = filePath;
 
   previewPanel.classList.add("active");
