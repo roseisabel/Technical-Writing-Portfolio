@@ -212,7 +212,12 @@
     <button class="close-preview" onclick="closePreview()">×</button>
   </div>
 
-  <iframe id="previewFrame" src=""></iframe>
+  <object id="previewFrame" data="" type="application/pdf">
+  <p>
+    This PDF cannot be displayed.
+    <a id="downloadLink" href="" target="_blank">Open the PDF instead.</a>
+  </p>
+</object>
 </aside>
 
 <div id="overlay" class="overlay" onclick="closePreview()"></div>
